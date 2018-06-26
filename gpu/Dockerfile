@@ -38,7 +38,8 @@ RUN conda install -y --quiet \
  && conda config --add channels conda-forge \
  && conda install -c https://conda.anaconda.org/menpo opencv3 \
  && pip3 --no-cache-dir install \
-	pydot_ng
+	pydot_ng \
+	graphviz
 
 ENTRYPOINT ["tini", "--"]
 CMD jupyter notebook \
