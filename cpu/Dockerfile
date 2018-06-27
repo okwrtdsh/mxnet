@@ -37,7 +37,7 @@ RUN conda install -y --quiet \
 	Pillow \
  && conda config --add channels conda-forge \
  && conda install -c https://conda.anaconda.org/menpo opencv3 \
- && pip3 --no-cache-dir install \
+ && pip --no-cache-dir install \
 	pydot_ng \
 	graphviz \
 	msgpack
