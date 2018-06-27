@@ -39,7 +39,8 @@ RUN conda install -y --quiet \
  && conda install -c https://conda.anaconda.org/menpo opencv3 \
  && pip3 --no-cache-dir install \
 	pydot_ng \
-	graphviz
+	graphviz \
+	msgpack
 
 ENTRYPOINT ["tini", "--"]
 CMD jupyter notebook \
