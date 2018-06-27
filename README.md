@@ -1,4 +1,4 @@
-# mxnet
+# mxnet [![](https://img.shields.io/docker/stars/okwrtdsh/mxnet.svg)![](https://img.shields.io/docker/pulls/okwrtdsh/mxnet.svg)![](https://img.shields.io/docker/automated/okwrtdsh/mxnet.svg)![](https://img.shields.io/docker/build/okwrtdsh/mxnet.svg)](https://hub.docker.com/r/okwrtdsh/mxnet/)
 ## How to Use
 
 ### CPU
